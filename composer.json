@@ -2,7 +2,7 @@
     "name": "anchour/theme-installer",
     "description": "Simple installer package for Anchour base theme.",
     "type": "metapackage",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "license": "MIT",
     "authors": [
         {
@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Anchour\\Theme\\Installer": "src/"
+            "Anchour\\Theme\\Installer\\": "src/"
         }
     },
     "require": {
