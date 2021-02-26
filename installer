@@ -1,0 +1,11 @@
+#! /usr/bin/php
+<?php
+
+use Anchour\Theme\Installer\Console\Commands\CreateACFModulesCommand;
+
+require __DIR__ . '/vendor/autoload.php';
+
+(new \Anchour\Theme\Installer\Installer())
+    ->app
+    ->run();
+
